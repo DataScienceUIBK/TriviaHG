@@ -1,6 +1,6 @@
 # TriviaHG: A Dataset for Automatic Hint Generation for Factoid Questions
 
-This repository contains folders pertaining to the results and experiments discussed in the paper *TriviaHG: A Dataset for Automatic Hint Generation for Factoid*. Below, we provide details regarding the materials available in this repository:
+This repository contains folders pertaining to the results and experiments discussed in the paper *TriviaHG: A Dataset for Automatic Hint Generation for Factoid Questions*. Below, we provide details regarding the materials available in this repository:
 
 ## Dataset
 
