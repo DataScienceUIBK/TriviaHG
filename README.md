@@ -15,7 +15,7 @@ Within this folder, you will find the training, validation, and test sets of the
 
 Contained within this folder is the code for the proposed framework designed to generate hints for given questions. To execute the code, follow these steps:
 
-1. Begin by training the QuestionType Detector. Run `Train.ipynb` located in the `Framework/utils/Hint_Generation/Question_Classification` directory.
+1. Start by training the QuestionType Detector. Run `Train.ipynb` located in the `Framework/utils/Hint_Generation/Question_Classification` directory.
 
 2. Once the QuestionType Detector is trained, run `Pipeline.py`. This will initiate the framework, generating hints and evaluating them based on the convergence and familiarity quality attributes for the questions listed in the `Framework/questions/questions.json` file.
 
