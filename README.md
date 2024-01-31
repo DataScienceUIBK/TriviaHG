@@ -45,3 +45,6 @@ In this folder, there are the generated hints and their evaluation value for the
 | LLaMA_70b_Finetuned |    0.494    |    0.862    |
 |     GPT_4_turbo     |    0.525    |    0.875    |
 |         Bing        |    0.540    |    0.946    |
+
+## Entities
+In this folder, there is a JSON file that includes 50,000 entities we used in IQR to find Q1 and Q3 for normalization.
