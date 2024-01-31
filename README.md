@@ -1,16 +1,19 @@
 # TriviaHG: A Dataset for Automatic Hint Generation for Factoid
-In this repository, we prepared some folders about the results and experiments of the paper "TriviaHG: A Dataset for Automatic Hint Generation for Factoid". In the following, we describe the materials of this repository:
+
+This repository contains folders pertaining to the results and experiments discussed in the paper "TriviaHG: A Dataset for Automatic Hint Generation for Factoid". Below, we provide details regarding the materials available in this repository:
 
 ## Dataset
-In this folder, there are training, validation, and test sets of TriviaHG dataset. In the following table, we show the statistics of the dataset.
 
-|                   | Training | Validation | Test |
-| ----------------- | -------- | ---------- | ---- |
-| Num. of Questions | 14645    | 1000       | 1000 |
-| Num. of Hints     | 140973   | 9638       | 9619 |
+Within this folder, you will find the training, validation, and test sets of the TriviaHG dataset. Refer to the table below for the dataset statistics:
 
-## Human Evaluation- Answering
-In this folder, there are the excel files that we asked from 6 humans to answer their questions using 2791 hints. For each person, there are 10 excel files which every file contains 10 questions. In the table below, B,F, and V refer to Bing, Finetuned LLaMA 7b and LLaMA 7b vanilla.
+|                   | Training | Validation | Test  |
+| ----------------- | -------- | ---------- | ----- |
+| Num. of Questions | 14,645   | 1,000      | 1,000 |
+| Num. of Hints     | 140,973  | 9,638      | 9,619 |
+
+## Human Evaluation - Answering
+
+This folder contains Excel files used to solicit responses from six human participants. Each participant received ten Excel files, with each file comprising ten questions. The table below represents the types of questions and the corresponding responses from each participant.
 
 |  Question Type  |  Hard-B  |  Hard-F  |  Hard-V  |  Medium-B  |  Medium-F  |  Medium-V  |  Easy-B  |  Easy-F  |  Easy-V  |
 |-----------------|----------|----------|----------|------------|------------|------------|----------|----------|----------|
@@ -20,8 +23,8 @@ In this folder, there are the excel files that we asked from 6 humans to answer 
 |      OTHER      |  3 / 9   |  2 / 9   |  0 / 9   |   5 / 8    |   2 / 8    |   0 / 8    |  8 / 8   |  7 / 8   |  7 / 8   |
 
 ## Human Evaluation - Quality
-In this folder, there are 10 excel files that include the human annotation values based on the relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2791 hints. In the table below, there are the average of each quality attributes.
 
+This folder contains ten Excel files including human annotation values for relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2,791 hints. The table below presents the average scores for each quality attribute.
 
 |       Method      |    Match     | Readability  |  Ambiguity   | Convergence  | Familiarity  |
 |-------------------|--------------|--------------|--------------|--------------|--------------|
@@ -30,7 +33,8 @@ In this folder, there are 10 excel files that include the human annotation value
 |  LLaMA - Vanilla  | 3.64 (72.8%) | 4.47 (89.4%) | 1.87 (37.4%) | 2.21 (44.2%) | 2.02 (40.4%) |
 
 ## Model Performance
-In this folder, there are the generated hints and their evaluation value for the convergence and familiarity quality attributes. In the table below, there are the results for the convergence and familiarity quality attributes for different models.
+
+In this folder, you'll find the generated hints and their evaluation values for convergence and familiarity quality attributes. Refer to the table below for the results across different models.
 
 |        Model        | Convergence | Familiarity |
 |---------------------|-------------|-------------|
@@ -47,4 +51,5 @@ In this folder, there are the generated hints and their evaluation value for the
 |         Bing        |    0.540    |    0.946    |
 
 ## Entities
-In this folder, there is a JSON file that includes 50,000 entities we used in IQR to find Q1 and Q3 for normalization.
+
+This folder contains a JSON file comprising 50,000 entities used in IQR to find Q1 and Q3 for normalization.
