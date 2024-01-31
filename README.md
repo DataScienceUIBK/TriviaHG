@@ -13,7 +13,7 @@ Within this folder, you will find the training, validation, and test sets of the
 
 ## Human Evaluation - Answering
 
-This folder contains Excel files used to solicit responses from six human participants. Each participant received ten Excel files, with each file comprising ten questions. The table below represents the types of questions and the corresponding responses from each participant.
+This folder contains Excel files used to solicit responses from six human participants. Each participant received ten Excel files, with each file comprising ten questions. The table below represents the types of questions and the corresponding statistics from each participant.
 
 |  Question Type  |  Hard-B  |  Hard-F  |  Hard-V  |  Medium-B  |  Medium-F  |  Medium-V  |  Easy-B  |  Easy-F  |  Easy-V  |
 |-----------------|----------|----------|----------|------------|------------|------------|----------|----------|----------|
@@ -34,7 +34,7 @@ This folder contains ten Excel files including human annotation values for relev
 
 ## Model Performance
 
-In this folder, you'll find the generated hints and their evaluation values for convergence and familiarity quality attributes. Refer to the table below for the results across different models.
+In this folder, you will find the generated hints and their evaluation values for convergence and familiarity quality attributes. Refer to the table below for the results across different models.
 
 |        Model        | Convergence | Familiarity |
 |---------------------|-------------|-------------|
