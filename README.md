@@ -20,7 +20,7 @@ In this folder, there are the excel files that we asked from 6 humans to answer 
 |      OTHER      |  3 / 9   |  2 / 9   |  0 / 9   |   5 / 8    |   2 / 8    |   0 / 8    |  8 / 8   |  7 / 8   |  7 / 8   |
 
 ## Human Evaluation - Quality
-In this folder, there are 10 excel files that include the human annotation values based on the relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2791 hints. In the table below, there are the average of each quality feature.
+In this folder, there are 10 excel files that include the human annotation values based on the relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2791 hints. In the table below, there are the average of each quality attributes.
 
 
 |       Method      |    Match     | Readability  |  Ambiguity   | Convergence  | Familiarity  |
@@ -28,3 +28,20 @@ In this folder, there are 10 excel files that include the human annotation value
 |        Bing       | 4.09 (81.8%) | 4.67 (93.4%) | 1.51 (30.2%) | 2.23 (44.6%) | 2.47 (49.4%) |
 | LLaMA - Finetuned | 4.01 (80.2%) | 4.7 (94.0%)  | 1.56 (31.2%) | 2.22 (44.4%) | 2.41 (48.2%) |
 |  LLaMA - Vanilla  | 3.64 (72.8%) | 4.47 (89.4%) | 1.87 (37.4%) | 2.21 (44.2%) | 2.02 (40.4%) |
+
+## Model Performance
+In this folder, there are the generated hints and their evaluation value for the convergence and familiarity quality attributes. In the table below, there are the results for the convergence and familiarity quality attributes for different models.
+
+|        Model        | Convergence | Familiarity |
+|---------------------|-------------|-------------|
+|   LLaMA_7b_Vanilla  |    0.307    |    0.833    |
+|  LLaMA_13b_Vanilla  |    0.350    |    0.929    |
+|  LLaMA_7b_Finetuned |    0.400    |    0.890    | 
+| LLaMA_13b_Finetuned |    0.410    |    0.881    |
+|       GPT_3.5       |    0.425    |    0.941    |
+|  LLaMA_70b_Vanilla  |    0.438    |    0.911    |
+|     WizardLM_70b    |    0.446    |    0.942    |
+|        Gemini       |    0.455    |    0.911    |
+| LLaMA_70b_Finetuned |    0.494    |    0.862    |
+|     GPT_4_turbo     |    0.525    |    0.875    |
+|         Bing        |    0.540    |    0.946    |
