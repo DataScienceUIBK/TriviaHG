@@ -50,8 +50,8 @@ In this folder, you will find the generated hints and their evaluation values fo
 |  LLaMA_13b_Vanilla  |    0.350    |    0.929    |
 |  LLaMA_7b_Finetuned |    0.400    |    0.890    | 
 | LLaMA_13b_Finetuned |    0.410    |    0.881    |
-|       GPT_3.5       |    0.425    |    0.941    |
-|  LLaMA_70b_Vanilla  |    0.438    |    0.911    |
+|  LLaMA_70b_Vanilla  |    0.425    |    0.941    |
+|       GPT_3.5       |    0.438    |    0.911    |
 |     WizardLM_70b    |    0.446    |    0.942    |
 |        Gemini       |    0.455    |    0.911    |
 | LLaMA_70b_Finetuned |    0.494    |    0.862    |
