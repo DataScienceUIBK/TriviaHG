@@ -32,13 +32,13 @@ This folder contains Excel files used to solicit responses from six human partic
 
 ## Human Evaluation - Quality
 
-This folder contains ten Excel files including human annotation values for relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2,791 hints. The table below presents the average scores for each quality attribute.
+This folder contains ten Excel files, including human annotation values for relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2,791 hints. The table below presents the average scores for each quality attribute.
 
-|       Method      |    Match     | Readability  |  Ambiguity   | Convergence  | Familiarity  |
-|-------------------|--------------|--------------|--------------|--------------|--------------|
-|        Bing       | 4.09 (81.8%) | 4.67 (93.4%) | 1.51 (30.2%) | 2.23 (44.6%) | 2.47 (49.4%) |
-| LLaMA - Finetuned | 4.01 (80.2%) | 4.7 (94.0%)  | 1.56 (31.2%) | 2.22 (44.4%) | 2.41 (48.2%) |
-|  LLaMA - Vanilla  | 3.64 (72.8%) | 4.47 (89.4%) | 1.87 (37.4%) | 2.21 (44.2%) | 2.02 (40.4%) |
+|         Method       |    Match     | Readability  |  Ambiguity   | Convergence  | Familiarity  |
+|----------------------|--------------|--------------|--------------|--------------|--------------|
+|         Bing         |     4.09     |     4.67     |     1.51     |     2.23     |     2.47     |
+| LLaMA 7b - Finetuned |     4.01     |     4.70     |     1.56     |     2.20     |     2.41     |
+|  LLaMA 7b - Vanilla  |     3.64     |     4.47     |     1.87     |     2.12     |     2.02     |
 
 ## Model Performance
 
