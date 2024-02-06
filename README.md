@@ -11,7 +11,7 @@
 
 ## Dataset
 
-*TriviaHG* comprises several sub-datasets, each encompassing <a href = "https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true">⬇️Training</a>, <a href="https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/validation.json?download=true">⬇️Validation</a>, and <a href="https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/test.json?download=true">⬇️Test</a> sets. You can access and download each subset by clicking on its respective link.
+*TriviaHG* comprises several sub-datasets, each encompassing [⬇️Training](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true), [⬇️Validation](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/validation.json?download=true), and [⬇️Test](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/test.json?download=true) sets. You can access and download each subset by clicking on its respective link.
 
 The dataset is structured as JSON files, including training.json, validation.json, and test.json for training, validation, and test phases, respectively:
 
@@ -46,6 +46,7 @@ The dataset is structured as JSON files, including training.json, validation.jso
 | Num. of Hints     | 140,973  | 9,638      | 9,619 |
 
 ## Framework
+
 
 
 ## Human Evaluation - Answering
