@@ -47,7 +47,7 @@ The dataset is structured as JSON files, including training.json, validation.jso
 
 ## Framework
 
-
+In the `Framework` folder, crucial files for hint generation framework are discovered. Among them is `Framework.ipynb`, a Jupyter Notebook designed for running and exploring the framework's code. This notebook can be run on the [🌐Google Colab](https://colab.research.google.com/github/DataScienceUIBK/TriviaHG/blob/main/Framework/Framework.ipynb), providing you with a straightforward means to delve into the hint generation process.
 
 ## Human Evaluation - Answering
 
