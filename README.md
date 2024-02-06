@@ -11,7 +11,7 @@
 
 ## Dataset
 
-*TriviaHG* comprises several sub-datasets, each encompassing Training, Validation, and Test sets. You can access and download each subset by clicking on its respective link.
+*TriviaHG* comprises several sub-datasets, each encompassing <a href = "https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true">Training</a>, <a href="https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/validation.json?download=true">Validation</a>, and <a href="https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/test.json?download=true">Test</a> sets. You can access and download each subset by clicking on its respective link.
 
 ### Dataset Statistics
 |                   | Training | Validation | Test  |
