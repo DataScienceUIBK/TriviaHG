@@ -3,14 +3,18 @@
     <a href="https://colab.research.google.com/github/DataScienceUIBK/TriviaHG/blob/main/Framework/Framework.ipynb"><img src="https://img.shields.io/static/v1?label=Colab&message=Framework&logo=Google%20Colab&color=f9ab00"></a>
 </span>
 
-# TriviaHG: A Dataset for Automatic Hint Generation for Factoid Questions
+# TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions
 
-This repository contains folders pertaining to the results and experiments discussed in the paper *TriviaHG: A Dataset for Automatic Hint Generation for Factoid Questions*. Below, we provide details regarding the materials available in this repository:
+*TriviaHG* is an extensive dataset crafted specifically for hint generation in question answering. Unlike conventional datasets, *TriviaHG* provides 10 hints per question instead of direct answers. This unique approach encourages users to engage in critical thinking and reasoning to derive the solution. Covering diverse question types across varying difficulty levels, the dataset is partitioned into training, validation, and test sets. These subsets facilitate the fine-tuning and training of large language models, enhancing the generation of high-quality hints.
 
 ## Dataset
 
-Within this folder, you will find the training, validation, and test sets of the TriviaHG dataset. Refer to the table below for the dataset statistics:
+TriviaHG is divided into several segments to address different QA challenges:
 
+* Machine Reading Comprehension (MRC): Contains questions with provided context paragraphs and specified answers. It includes both answerable and unanswerable questions to mimic real-world scenarios where some questions may not have straightforward answers.
+* Open-Domain QA: Designed for scenarios where questions are asked in an open context, encouraging models to retrieve relevant information from a broad dataset.
+* Retriever Training Data: Offers structured data to train retriever models, which are crucial for identifying relevant context or documents from a large corpus.
+### Dataset Statistics
 |                   | Training | Validation | Test  |
 | ----------------- | -------- | ---------- | ----- |
 | Num. of Questions | 14,645   | 1,000      | 1,000 |
