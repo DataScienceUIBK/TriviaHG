@@ -5,15 +5,14 @@
 
 # TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions
 
+<img src="/Framework/Framework.png">
+
 *TriviaHG* is an extensive dataset crafted specifically for hint generation in question answering. Unlike conventional datasets, *TriviaHG* provides 10 hints per question instead of direct answers. This unique approach encourages users to engage in critical thinking and reasoning to derive the solution. Covering diverse question types across varying difficulty levels, the dataset is partitioned into training, validation, and test sets. These subsets facilitate the fine-tuning and training of large language models, enhancing the generation of high-quality hints.
 
 ## Dataset
 
-TriviaHG is divided into several segments to address different QA challenges:
+*TriviaHG* comprises several sub-datasets, each encompassing Training, Validation, and Test sets. You can access and download each subset by clicking on its respective link.
 
-* Machine Reading Comprehension (MRC): Contains questions with provided context paragraphs and specified answers. It includes both answerable and unanswerable questions to mimic real-world scenarios where some questions may not have straightforward answers.
-* Open-Domain QA: Designed for scenarios where questions are asked in an open context, encouraging models to retrieve relevant information from a broad dataset.
-* Retriever Training Data: Offers structured data to train retriever models, which are crucial for identifying relevant context or documents from a large corpus.
 ### Dataset Statistics
 |                   | Training | Validation | Test  |
 | ----------------- | -------- | ---------- | ----- |
