@@ -45,10 +45,55 @@ The dataset is structured as JSON files, including training.json, validation.jso
 | Num. of Questions | 14,645   | 1,000      | 1,000 |
 | Num. of Hints     | 140,973  | 9,638      | 9,619 |
 
-## Framework
+## Framework and Model Deployment
 
-In the `Framework` folder, crucial files for hint generation framework are discovered. Among them is `Framework.ipynb`, a Jupyter Notebook designed for running and exploring the framework's code. This notebook can be run on the [🌐Google Colab](https://colab.research.google.com/github/DataScienceUIBK/TriviaHG/blob/main/Framework/Framework.ipynb), providing you with a straightforward means to delve into the hint generation process.
+The `Framework` directory houses essential files for the hint generation framework. Notably, you will find `Framework.ipynb`, a Jupyter Notebook tailored for executing and exploring the framework's code. Utilize [🌐Google Colab](https://colab.research.google.com/github/DataScienceUIBK/TriviaHG/blob/main/Framework/Framework.ipynb) to seamlessly run this notebook and delve into the hint generation process.
 
+### Finetuned Language Models
+We have finetuned several large language models, including **LLaMA 7b**, **LLaMA 13b**, and **LLaMA 70b**, on the TriviaHG dataset. These models are not available for direct download but can be accessed via API functions provided by [AnyScale.com](https://www.anyscale.com/). Below are the IDs for the finetuned models:
+
+- LLaMA 7b Finetuned: `meta-llama/Llama-2-7b-chat-hf:Hint_Generator:X6odC0D`
+- LLaMA 13b Finetuned: `meta-llama/Llama-2-13b-chat-hf:Hint_Generator:ajid9Dr`
+- LLaMA 70b Finetuned: `meta-llama/Llama-2-70b-chat-hf:Hint_Generator:NispySP`
+
+### Querying Finetuned Models
+Using CURL:
+```shell
+export ENDPOINTS_AUTH_TOKEN=YOUR_API_KEY
+
+curl "https://api.endpoints.anyscale.com/v1/chat/completions" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ENDPOINTS_AUTH_TOKEN" \
+  -d '{
+    "model": "meta-llama/Llama-2-70b-chat-hf:Hint_Generator:NispySP",
+    "messages": [
+      {"role": "user", "content": "Generate 10 hints for the following question. Question: Which country has the highest population?"}
+    ],
+    "temperature": 0.0
+  }'
+```
+Or using Python:
+```python
+import os
+import requests
+
+s = requests.Session()
+
+api_base = "https://api.endpoints.anyscale.com/v1"
+# Replace with long-lived credentials for production
+token = YOUR_API_KEY
+url = f"{api_base}/chat/completions"
+body = {
+  "model": "meta-llama/Llama-2-70b-chat-hf:Hint_Generator:NispySP",
+  "messages": [
+    {"role": "user", "content": "Generate 10 hints for the following question. Question: Which country has the highest population?"}
+  ],
+  "temperature": 0.0
+}
+
+with s.post(url, headers={"Authorization": f"Bearer {token}"}, json=body) as resp:
+  print(resp.json())
+```
 ## Human Evaluation - Answering
 
 This folder contains Excel files used to solicit responses from six human participants. Each participant received ten Excel files, with each file comprising ten questions. The table below represents the types of questions and the corresponding statistics from each participant.
