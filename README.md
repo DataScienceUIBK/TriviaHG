@@ -94,9 +94,11 @@ body = {
 with s.post(url, headers={"Authorization": f"Bearer {token}"}, json=body) as resp:
   print(resp.json())
 ```
-## Human Evaluation - Answering
 
-This folder contains Excel files used to solicit responses from six human participants. Each participant received ten Excel files, with each file comprising ten questions. The table below represents the types of questions and the corresponding statistics from each participant.
+## Evaluation
+### Human Evaluation - Answering
+
+The `Human Evaluation - Answering` folder is a repository that houses Excel files utilized to gather responses from six human participants. Each participant was assigned ten distinct Excel files, each containing a set of ten questions. The table below outlines the types of questions included in the Excel files, along with corresponding statistics collected from participants. The columns in the table below adhere to the format `{Difficulty}-{Model}`, where **B**, **F**, and **V** represent **Bing**, **LLaMA 7b Finetuned**, and **LLaMA 7b Vanilla**, respectively.
 
 |  Question Type  |  Hard-B  |  Hard-F  |  Hard-V  |  Medium-B  |  Medium-F  |  Medium-V  |  Easy-B  |  Easy-F  |  Easy-V  |
 |-----------------|----------|----------|----------|------------|------------|------------|----------|----------|----------|
@@ -105,7 +107,7 @@ This folder contains Excel files used to solicit responses from six human partic
 |     LOCATION    |  0 / 9   |  0 / 9   |  0 / 9   |   7 / 8    |   5 / 8    |   2 / 8    |  7 / 8   |  6 / 8   |  4 / 8   |
 |      OTHER      |  3 / 9   |  2 / 9   |  0 / 9   |   5 / 8    |   2 / 8    |   0 / 8    |  8 / 8   |  7 / 8   |  7 / 8   |
 
-## Human Evaluation - Quality
+### Human Evaluation - Quality
 
 This folder contains ten Excel files, including human annotation values for relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2,791 hints. The table below presents the average scores for each quality attribute.
 
@@ -115,7 +117,7 @@ This folder contains ten Excel files, including human annotation values for rele
 | LLaMA 7b - Finetuned |     4.01     |     4.70     |     1.56     |     2.20     |     2.41     |
 |  LLaMA 7b - Vanilla  |     3.64     |     4.47     |     1.87     |     2.12     |     2.02     |
 
-## Model Performance
+### Model Performance
 
 In this folder, you will find the generated hints and their evaluation values for convergence and familiarity quality attributes. Refer to the table below for the results across different models.
 
