@@ -138,3 +138,10 @@ Within the `Model Performance` folder, comprehensive insights into the generated
 ## Entities
 
 The `Entities` folder contains a JSON file with 50,000 entities utilized in the Interquartile Range (IQR) method to determine Q1 and Q3 for normalization purposes. These entities play a crucial role in statistical normalization, ensuring robust data distributions and accurate analytical insights. Leveraging the IQR method with this extensive entity set enables users to effectively manage variations and outliers, enhancing the accuracy and reliability of analyses across various domains.
+
+## Citation
+### Plain
+...
+### Bibtex
+```bibtex
+...
