@@ -109,7 +109,7 @@ The `Human Evaluation - Answering` folder is a repository that houses Excel file
 
 ### Human Evaluation - Quality
 
-This folder contains ten Excel files, including human annotation values for relevance, readability, ambiguity, convergence, and familiarity quality attributes for 2,791 hints. The table below presents the average scores for each quality attribute.
+The `Human Evaluation - Quality` folder encompasses ten Excel files, each containing human annotation values assigned to 2,791 hints across various quality attributes such as relevance, readability, ambiguity, convergence, and familiarity. These attributes are essential markers in assessing the overall quality and effectiveness of the hints generated. The table below provides a concise summary of the average scores attained for each quality attribute, offering insights into the perceived quality of the hints evaluated by human participants.
 
 |         Method       |    Match     | Readability  |  Ambiguity   | Convergence  | Familiarity  |
 |----------------------|--------------|--------------|--------------|--------------|--------------|
@@ -119,7 +119,7 @@ This folder contains ten Excel files, including human annotation values for rele
 
 ### Model Performance
 
-In this folder, you will find the generated hints and their evaluation values for convergence and familiarity quality attributes. Refer to the table below for the results across different models.
+Within the "Model Performance" folder, comprehensive insights into the generated hints and their evaluation values for convergence and familiarity quality attributes are provided. The table below presents a comparative analysis of the results obtained from various models, shedding light on their respective performances in terms of convergence and familiarity attributes. This comparative assessment is a valuable resource for gauging the efficacy and effectiveness of each model's hint generation capabilities, thereby informing further enhancements and refinements in the generation process.
 
 |        Model        | Convergence | Familiarity |
 |---------------------|-------------|-------------|
