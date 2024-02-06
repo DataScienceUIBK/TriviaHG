@@ -119,7 +119,7 @@ The `Human Evaluation - Quality` folder encompasses ten Excel files, each contai
 
 ### Model Performance
 
-Within the "Model Performance" folder, comprehensive insights into the generated hints and their evaluation values for convergence and familiarity quality attributes are provided. The table below presents a comparative analysis of the results obtained from various models, shedding light on their respective performances in terms of convergence and familiarity attributes. This comparative assessment is a valuable resource for gauging the efficacy and effectiveness of each model's hint generation capabilities, thereby informing further enhancements and refinements in the generation process.
+Within the `Model Performance` folder, comprehensive insights into the generated hints and their evaluation values for convergence and familiarity quality attributes are provided. The table below presents a comparative analysis of the results obtained from various models, shedding light on their respective performances in terms of convergence and familiarity attributes. This comparative assessment is a valuable resource for gauging the efficacy and effectiveness of each model's hint generation capabilities, thereby informing further enhancements and refinements in the generation process.
 
 |        Model        | Convergence | Familiarity |
 |---------------------|-------------|-------------|
@@ -137,4 +137,4 @@ Within the "Model Performance" folder, comprehensive insights into the generated
 
 ## Entities
 
-The "Entities" folder contains a JSON file with 50,000 entities utilized in the Interquartile Range (IQR) method to determine Q1 and Q3 for normalization purposes. These entities play a crucial role in statistical normalization, ensuring robust data distributions and accurate analytical insights. Leveraging the IQR method with this extensive entity set enables users to effectively manage variations and outliers, enhancing the accuracy and reliability of analyses across various domains.
+The `Entities` folder contains a JSON file with 50,000 entities utilized in the Interquartile Range (IQR) method to determine Q1 and Q3 for normalization purposes. These entities play a crucial role in statistical normalization, ensuring robust data distributions and accurate analytical insights. Leveraging the IQR method with this extensive entity set enables users to effectively manage variations and outliers, enhancing the accuracy and reliability of analyses across various domains.
