@@ -121,7 +121,7 @@ The `Human Evaluation - Quality` folder encompasses ten Excel files, each contai
 
 ### Model Performance
 
-Within the `Model Performance` folder, comprehensive insights into the generated hints and their evaluation values for convergence (HICOS) and familiarity quality attributes (HIFAS) are provided. The table below presents a comparative analysis of the results obtained from various models, shedding light on their respective performances in terms of HICOS and HIFAS. This comparative assessment is a valuable resource for gauging the efficacy and effectiveness of each model's hint generation capabilities, thereby informing further enhancements and refinements in the generation process.
+Within the `Model Performance` folder, comprehensive insights into the generated hints and their evaluation values for convergence (HICOS) and familiarity (HIFAS) quality attributes are provided. The table below presents a comparative analysis of the results obtained from various models, shedding light on their respective performances in terms of HICOS and HIFAS. This comparative assessment is a valuable resource for gauging the efficacy and effectiveness of each model's hint generation capabilities, thereby informing further enhancements and refinements in the generation process.
 
 |        Model        |    HICOS    |    HIFAS    |
 |---------------------|-------------|-------------|
