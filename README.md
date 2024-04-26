@@ -115,7 +115,7 @@ The `Human Evaluation - Quality` folder encompasses ten Excel files, each contai
 
 |         Method       |    Match     | Readability  |  Ambiguity   | Convergence  | Familiarity  |
 |----------------------|--------------|--------------|--------------|--------------|--------------|
-|         Bing         |     4.09     |     4.67     |     1.51     |     2.23     |     2.47     |
+|      Copilot         |     4.09     |     4.67     |     1.51     |     2.23     |     2.47     |
 | LLaMA 7b - Finetuned |     4.01     |     4.70     |     1.56     |     2.20     |     2.41     |
 |  LLaMA 7b - Vanilla  |     3.64     |     4.47     |     1.87     |     2.12     |     2.02     |
 
@@ -135,7 +135,7 @@ Within the `Model Performance` folder, comprehensive insights into the generated
 |        Gemini       |    0.455    |    0.911    |
 | LLaMA_70b_Finetuned |    0.494    |    0.862    |
 |     GPT_4_turbo     |    0.525    |    0.875    |
-|         Bing        |    0.540    |    0.946    |
+|      Copilot        |    0.540    |    0.946    |
 
 ## Entities
 
