@@ -143,7 +143,12 @@ The `Entities` folder contains a JSON file with 50,000 entities utilized in the 
 
 ## Citation
 ### Plain
-...
+Mozafari, Jamshid, Anubhav Jangra, and Adam Jatowt. "TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions." arXiv preprint arXiv:2403.18426 (2024).
 ### Bibtex
 ```bibtex
-...
+@article{mozafari2024triviahg,
+  title={TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions},
+  author={Mozafari, Jamshid and Jangra, Anubhav and Jatowt, Adam},
+  journal={arXiv preprint arXiv:2403.18426},
+  year={2024}
+}
