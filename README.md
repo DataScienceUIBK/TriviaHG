@@ -143,12 +143,22 @@ The `Entities` folder contains a JSON file with 50,000 entities utilized in the 
 
 ## Citation
 ### Plain
-Mozafari, Jamshid, Anubhav Jangra, and Adam Jatowt. "TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions." arXiv preprint arXiv:2403.18426 (2024).
+Jamshid Mozafari, Anubhav Jangra, and Adam Jatowt. 2024. TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions. In Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '24). Association for Computing Machinery, New York, NY, USA, 2060–2070. https://doi.org/10.1145/3626772.3657855
 ### Bibtex
 ```bibtex
-@article{mozafari2024triviahg,
-  title={TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions},
-  author={Mozafari, Jamshid and Jangra, Anubhav and Jatowt, Adam},
-  journal={arXiv preprint arXiv:2403.18426},
-  year={2024}
+@inproceedings{10.1145/3626772.3657855,
+    author = {Mozafari, Jamshid and Jangra, Anubhav and Jatowt, Adam},
+    title = {TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions},
+    year = {2024},
+    isbn = {9798400704314},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3626772.3657855},
+    doi = {10.1145/3626772.3657855},
+    booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    pages = {2060–2070},
+    numpages = {11},
+    keywords = {hint generation, large language models, question answering},
+    location = {Washington DC, USA},
+    series = {SIGIR '24}
 }
