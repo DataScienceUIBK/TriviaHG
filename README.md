@@ -11,6 +11,19 @@
 
 *TriviaHG* is an extensive dataset crafted specifically for hint generation in question answering. Unlike conventional datasets, *TriviaHG* provides 10 hints per question instead of direct answers. This unique approach encourages users to engage in critical thinking and reasoning to derive the solution. Covering diverse question types across varying difficulty levels, the dataset is partitioned into training, validation, and test sets. These subsets facilitate the fine-tuning and training of large language models, enhancing the generation of high-quality hints.
 
+## ⚠️ Attention  
+
+As of **February 2025**, we recommend using **HintEval**, the framework for **hint generation and evaluation**. HintEval includes the **TriviaHG dataset** and the evaluation metrics introduced in the TriviaHG paper, such as **Convergence** and **Familiarity**, making it easier than ever to work with hints.  
+
+Check out HintEval here:  
+- 📖 **[HintEval Documentation](http://hinteval.readthedocs.io/)**
+- 📦 **[HintEval PyPI Installation](https://pypi.org/project/hinteval/)**
+- 💻 **[HintEval GitHub Repository](https://github.com/DataScienceUIBK/HintEval)**
+- 📜 **[HintEval Paper (arXiv)](https://doi.org/10.48550/arXiv.2502.00857)**  
+
+For **seamless integration** of hint generation and evaluation, we highly recommend **migrating** to **HintEval**!
+
+
 ## Dataset
 
 *TriviaHG* comprises several sub-datasets, each encompassing [⬇️Training](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true), [⬇️Validation](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/validation.json?download=true), and [⬇️Test](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/test.json?download=true) sets. You can access and download each subset by clicking on its respective link.
