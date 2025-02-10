@@ -12,7 +12,7 @@
 
 *TriviaHG* is an extensive dataset crafted specifically for hint generation in question answering. Unlike conventional datasets, *TriviaHG* provides 10 hints per question instead of direct answers. This unique approach encourages users to engage in critical thinking and reasoning to derive the solution. Covering diverse question types across varying difficulty levels, the dataset is partitioned into training, validation, and test sets. These subsets facilitate the fine-tuning and training of large language models, enhancing the generation of high-quality hints.
 
-## <img src="https://github.com/DataScienceUIBK/TriviaHG/blob/main/Framework/giphy.gif" width="32" height="32"/> Attention ⚠️
+## <img src="https://github.com/DataScienceUIBK/TriviaHG/blob/main/Framework/gif-dan.gif" width="32" height="32"/> Attention<img src="https://github.com/DataScienceUIBK/TriviaHG/blob/main/Framework/gif-dan.gif" width="32" height="32"/>
 
 As of **February 2025**, we recommend using **HintEval**, the framework for **hint generation and evaluation**. HintEval includes the **TriviaHG dataset** and the evaluation metrics introduced in the TriviaHG paper, such as **Convergence** and **Familiarity**, making it easier than ever to work with hints.  
 
